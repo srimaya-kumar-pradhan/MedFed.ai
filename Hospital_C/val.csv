@@ -1,0 +1,535 @@
+image_name,source_folder,image_path,relative_path,finding_labels,follow_up_num,patient_id,patient_age,patient_gender,view_position,No_Finding,Atelectasis,Cardiomegaly,Consolidation,Edema,Effusion,Emphysema,Fibrosis,Hernia,Infiltration,Mass,Nodule,Pleural_Thickening,Pneumonia,Pneumothorax
+00001900_028.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001900_028.png,images_002\images\00001900_028.png,Effusion|Hernia|Mass|Pleural_Thickening,28,1900,52,M,PA,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0
+00019285_003.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019285_003.png,images_009\images\00019285_003.png,No Finding,3,19285,44,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020513_034.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020513_034.png,images_009\images\00020513_034.png,Effusion,34,20513,24,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00017747_018.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017747_018.png,images_008\images\00017747_018.png,No Finding,18,17747,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014862_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014862_000.png,images_007\images\00014862_000.png,No Finding,0,14862,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030533_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030533_000.png,images_012\images\00030533_000.png,No Finding,0,30533,32,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004418_008.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004418_008.png,images_003\images\00004418_008.png,No Finding,8,4418,55,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016492_001.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016492_001.png,images_008\images\00016492_001.png,No Finding,1,16492,47,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000870_006.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000870_006.png,images_001\images\00000870_006.png,No Finding,6,870,76,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000877_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000877_001.png,images_001\images\00000877_001.png,No Finding,1,877,35,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006555_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006555_000.png,images_003\images\00006555_000.png,No Finding,0,6555,64,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017556_007.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017556_007.png,images_008\images\00017556_007.png,No Finding,7,17556,21,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014236_001.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014236_001.png,images_007\images\00014236_001.png,No Finding,1,14236,61,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001075_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001075_001.png,images_001\images\00001075_001.png,No Finding,1,1075,59,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013396_002.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013396_002.png,images_006\images\00013396_002.png,No Finding,2,13396,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004048_009.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004048_009.png,images_003\images\00004048_009.png,No Finding,9,4048,21,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003803_012.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003803_012.png,images_002\images\00003803_012.png,Effusion|Infiltration,12,3803,52,F,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00030137_006.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030137_006.png,images_012\images\00030137_006.png,Pneumothorax,6,30137,50,F,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00013911_002.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00013911_002.png,images_007\images\00013911_002.png,Effusion|Nodule,2,13911,63,M,PA,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+00014885_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014885_000.png,images_007\images\00014885_000.png,No Finding,0,14885,54,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015115_005.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015115_005.png,images_007\images\00015115_005.png,Mass,5,15115,26,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00014663_035.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014663_035.png,images_007\images\00014663_035.png,Mass|Nodule,35,14663,63,M,AP,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00010773_018.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010773_018.png,images_005\images\00010773_018.png,No Finding,18,10773,54,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001182_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001182_001.png,images_001\images\00001182_001.png,Mass|Nodule,1,1182,27,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00003068_005.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003068_005.png,images_002\images\00003068_005.png,No Finding,5,3068,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001154_006.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001154_006.png,images_001\images\00001154_006.png,No Finding,6,1154,63,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003072_018.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003072_018.png,images_002\images\00003072_018.png,Effusion|Pneumothorax,18,3072,51,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+00010813_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010813_000.png,images_005\images\00010813_000.png,Effusion|Infiltration,0,10813,34,F,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00000652_014.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000652_014.png,images_001\images\00000652_014.png,No Finding,14,652,51,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029876_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029876_000.png,images_012\images\00029876_000.png,No Finding,0,29876,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011311_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011311_000.png,images_005\images\00011311_000.png,No Finding,0,11311,29,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010505_018.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010505_018.png,images_005\images\00010505_018.png,Pneumonia,18,10505,46,F,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00016371_003.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016371_003.png,images_008\images\00016371_003.png,No Finding,3,16371,50,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017441_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017441_000.png,images_008\images\00017441_000.png,No Finding,0,17441,64,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013174_001.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013174_001.png,images_006\images\00013174_001.png,No Finding,1,13174,34,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018920_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018920_000.png,images_009\images\00018920_000.png,No Finding,0,18920,47,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005288_010.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005288_010.png,images_003\images\00005288_010.png,Edema,10,5288,48,M,AP,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00001730_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001730_000.png,images_002\images\00001730_000.png,No Finding,0,1730,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002633_030.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002633_030.png,images_002\images\00002633_030.png,No Finding,30,2633,45,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011187_002.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011187_002.png,images_005\images\00011187_002.png,Effusion,2,11187,62,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00013539_002.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013539_002.png,images_006\images\00013539_002.png,No Finding,2,13539,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001206_008.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001206_008.png,images_001\images\00001206_008.png,No Finding,8,1206,53,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022894_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022894_000.png,images_010\images\00022894_000.png,No Finding,0,22894,36,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028253_004.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028253_004.png,images_012\images\00028253_004.png,No Finding,4,28253,21,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015809_021.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015809_021.png,images_007\images\00015809_021.png,No Finding,21,15809,38,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028751_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028751_000.png,images_012\images\00028751_000.png,No Finding,0,28751,25,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005696_001.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005696_001.png,images_003\images\00005696_001.png,No Finding,1,5696,52,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029075_011.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029075_011.png,images_012\images\00029075_011.png,No Finding,11,29075,24,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006938_003.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006938_003.png,images_004\images\00006938_003.png,Mass,3,6938,38,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00030101_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030101_000.png,images_012\images\00030101_000.png,No Finding,0,30101,69,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022775_003.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022775_003.png,images_010\images\00022775_003.png,No Finding,3,22775,58,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021201_074.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021201_074.png,images_010\images\00021201_074.png,Effusion,74,21201,66,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00000740_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000740_001.png,images_001\images\00000740_001.png,No Finding,1,740,80,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005758_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005758_000.png,images_003\images\00005758_000.png,No Finding,0,5758,32,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004268_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004268_003.png,images_003\images\00004268_003.png,No Finding,3,4268,35,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015058_004.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015058_004.png,images_007\images\00015058_004.png,No Finding,4,15058,71,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000980_004.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000980_004.png,images_001\images\00000980_004.png,No Finding,4,980,48,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001017_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001017_000.png,images_001\images\00001017_000.png,Mass,0,1017,39,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00014204_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014204_000.png,images_007\images\00014204_000.png,No Finding,0,14204,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024438_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00024438_000.png,images_010\images\00024438_000.png,No Finding,0,24438,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013352_004.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013352_004.png,images_006\images\00013352_004.png,No Finding,4,13352,62,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027441_025.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027441_025.png,images_011\images\00027441_025.png,Effusion|Nodule,25,27441,11,F,PA,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+00002423_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002423_000.png,images_002\images\00002423_000.png,No Finding,0,2423,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001697_010.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001697_010.png,images_002\images\00001697_010.png,No Finding,10,1697,48,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016602_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016602_000.png,images_008\images\00016602_000.png,No Finding,0,16602,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005467_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005467_003.png,images_003\images\00005467_003.png,Mass,3,5467,67,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00000116_007.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000116_007.png,images_001\images\00000116_007.png,Consolidation|Effusion|Infiltration,7,116,75,F,AP,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0
+00010866_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010866_001.png,images_005\images\00010866_001.png,No Finding,1,10866,57,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000957_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000957_000.png,images_001\images\00000957_000.png,No Finding,0,957,63,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016429_022.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016429_022.png,images_008\images\00016429_022.png,No Finding,22,16429,47,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001039_006.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001039_006.png,images_001\images\00001039_006.png,No Finding,6,1039,42,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018114_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018114_000.png,images_008\images\00018114_000.png,No Finding,0,18114,34,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016797_009.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016797_009.png,images_008\images\00016797_009.png,Effusion|Infiltration|Nodule|Pneumothorax,9,16797,73,F,PA,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1
+00008701_017.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008701_017.png,images_004\images\00008701_017.png,Consolidation|Effusion,17,8701,46,F,AP,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+00001066_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001066_000.png,images_001\images\00001066_000.png,Infiltration,0,1066,40,F,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00022256_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022256_000.png,images_010\images\00022256_000.png,No Finding,0,22256,65,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003932_002.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00003932_002.png,images_003\images\00003932_002.png,No Finding,2,3932,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015009_011.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015009_011.png,images_007\images\00015009_011.png,No Finding,11,15009,26,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008400_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008400_001.png,images_004\images\00008400_001.png,No Finding,1,8400,41,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000626_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000626_000.png,images_001\images\00000626_000.png,No Finding,0,626,47,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027871_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027871_000.png,images_011\images\00027871_000.png,Nodule,0,27871,56,F,PA,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00025148_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025148_000.png,images_011\images\00025148_000.png,No Finding,0,25148,29,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002678_005.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002678_005.png,images_002\images\00002678_005.png,No Finding,5,2678,48,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017001_004.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017001_004.png,images_008\images\00017001_004.png,Effusion,4,17001,64,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00006699_013.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006699_013.png,images_004\images\00006699_013.png,No Finding,13,6699,57,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011894_002.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011894_002.png,images_006\images\00011894_002.png,No Finding,2,11894,22,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003535_027.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003535_027.png,images_002\images\00003535_027.png,No Finding,27,3535,17,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006304_034.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006304_034.png,images_003\images\00006304_034.png,No Finding,34,6304,67,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002651_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002651_001.png,images_002\images\00002651_001.png,No Finding,1,2651,49,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022335_002.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022335_002.png,images_010\images\00022335_002.png,No Finding,2,22335,54,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006607_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006607_001.png,images_004\images\00006607_001.png,No Finding,1,6607,59,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004155_002.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004155_002.png,images_003\images\00004155_002.png,No Finding,2,4155,52,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011752_008.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011752_008.png,images_006\images\00011752_008.png,Atelectasis|Effusion|Pneumothorax,8,11752,35,M,AP,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1
+00004238_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004238_000.png,images_003\images\00004238_000.png,No Finding,0,4238,18,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019363_008.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019363_008.png,images_009\images\00019363_008.png,No Finding,8,19363,55,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013645_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013645_000.png,images_006\images\00013645_000.png,No Finding,0,13645,28,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022215_005.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022215_005.png,images_010\images\00022215_005.png,No Finding,5,22215,53,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018413_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018413_000.png,images_009\images\00018413_000.png,No Finding,0,18413,64,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005220_012.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005220_012.png,images_003\images\00005220_012.png,No Finding,12,5220,78,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018491_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018491_000.png,images_009\images\00018491_000.png,No Finding,0,18491,54,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008230_014.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008230_014.png,images_004\images\00008230_014.png,Effusion|Pneumothorax,14,8230,60,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+00009100_002.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00009100_002.png,images_004\images\00009100_002.png,No Finding,2,9100,60,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016943_001.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016943_001.png,images_008\images\00016943_001.png,No Finding,1,16943,22,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030556_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030556_000.png,images_012\images\00030556_000.png,No Finding,0,30556,65,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010615_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010615_000.png,images_005\images\00010615_000.png,No Finding,0,10615,78,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006038_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006038_000.png,images_003\images\00006038_000.png,No Finding,0,6038,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020408_011.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020408_011.png,images_009\images\00020408_011.png,Consolidation|Infiltration,11,20408,45,M,AP,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+00008051_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008051_000.png,images_004\images\00008051_000.png,No Finding,0,8051,49,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014265_009.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014265_009.png,images_007\images\00014265_009.png,Mass,9,14265,24,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00012041_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012041_000.png,images_006\images\00012041_000.png,No Finding,0,12041,61,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006008_011.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006008_011.png,images_003\images\00006008_011.png,Effusion|Fibrosis|Pleural_Thickening,11,6008,74,M,AP,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0
+00028509_005.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028509_005.png,images_012\images\00028509_005.png,No Finding,5,28509,64,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027213_049.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027213_049.png,images_011\images\00027213_049.png,Pneumothorax,49,27213,73,F,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00010501_003.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010501_003.png,images_005\images\00010501_003.png,No Finding,3,10501,47,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029737_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029737_000.png,images_012\images\00029737_000.png,No Finding,0,29737,61,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002176_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002176_001.png,images_002\images\00002176_001.png,No Finding,1,2176,68,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010360_003.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010360_003.png,images_005\images\00010360_003.png,No Finding,3,10360,2,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018912_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018912_000.png,images_009\images\00018912_000.png,Effusion,0,18912,16,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00011460_008.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011460_008.png,images_005\images\00011460_008.png,Pneumothorax,8,11460,16,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00004480_002.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004480_002.png,images_003\images\00004480_002.png,No Finding,2,4480,25,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010475_015.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010475_015.png,images_005\images\00010475_015.png,No Finding,15,10475,64,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010531_048.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010531_048.png,images_005\images\00010531_048.png,No Finding,48,10531,24,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021888_003.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021888_003.png,images_010\images\00021888_003.png,No Finding,3,21888,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024056_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00024056_000.png,images_010\images\00024056_000.png,No Finding,0,24056,42,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020811_015.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020811_015.png,images_009\images\00020811_015.png,No Finding,15,20811,28,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003028_026.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003028_026.png,images_002\images\00003028_026.png,No Finding,26,3028,58,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013288_001.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013288_001.png,images_006\images\00013288_001.png,No Finding,1,13288,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017617_003.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017617_003.png,images_008\images\00017617_003.png,No Finding,3,17617,52,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020213_084.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020213_084.png,images_009\images\00020213_084.png,Effusion,84,20213,72,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00009340_005.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009340_005.png,images_005\images\00009340_005.png,No Finding,5,9340,56,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017467_011.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017467_011.png,images_008\images\00017467_011.png,No Finding,11,17467,28,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021918_002.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021918_002.png,images_010\images\00021918_002.png,No Finding,2,21918,57,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017932_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017932_000.png,images_008\images\00017932_000.png,No Finding,0,17932,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012093_002.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012093_002.png,images_006\images\00012093_002.png,No Finding,2,12093,44,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002743_008.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002743_008.png,images_002\images\00002743_008.png,No Finding,8,2743,71,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004911_008.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004911_008.png,images_003\images\00004911_008.png,Mass,8,4911,47,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00001698_020.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001698_020.png,images_002\images\00001698_020.png,Pneumothorax,20,1698,28,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00003586_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003586_000.png,images_002\images\00003586_000.png,No Finding,0,3586,56,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002728_005.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002728_005.png,images_002\images\00002728_005.png,Effusion,5,2728,33,F,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00029881_004.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029881_004.png,images_012\images\00029881_004.png,No Finding,4,29881,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020610_003.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020610_003.png,images_009\images\00020610_003.png,No Finding,3,20610,12,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004805_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004805_000.png,images_003\images\00004805_000.png,No Finding,0,4805,67,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022083_001.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022083_001.png,images_010\images\00022083_001.png,No Finding,1,22083,68,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016732_022.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016732_022.png,images_008\images\00016732_022.png,Effusion,22,16732,80,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00025595_002.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025595_002.png,images_011\images\00025595_002.png,No Finding,2,25595,44,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026202_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026202_001.png,images_011\images\00026202_001.png,Mass,1,26202,29,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00020005_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020005_000.png,images_009\images\00020005_000.png,No Finding,0,20005,35,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010050_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010050_000.png,images_005\images\00010050_000.png,Mass,0,10050,78,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00019596_004.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019596_004.png,images_009\images\00019596_004.png,No Finding,4,19596,64,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006508_001.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006508_001.png,images_003\images\00006508_001.png,No Finding,1,6508,65,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004925_001.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004925_001.png,images_003\images\00004925_001.png,No Finding,1,4925,55,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001973_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001973_000.png,images_002\images\00001973_000.png,No Finding,0,1973,58,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001270_003.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001270_003.png,images_001\images\00001270_003.png,No Finding,3,1270,39,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011485_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011485_000.png,images_005\images\00011485_000.png,No Finding,0,11485,44,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000583_042.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000583_042.png,images_001\images\00000583_042.png,No Finding,42,583,40,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016588_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016588_000.png,images_008\images\00016588_000.png,Mass,0,16588,75,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00016999_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016999_000.png,images_008\images\00016999_000.png,No Finding,0,16999,31,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000468_014.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000468_014.png,images_001\images\00000468_014.png,Pneumothorax,14,468,31,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00001705_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001705_000.png,images_002\images\00001705_000.png,No Finding,0,1705,50,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022655_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022655_000.png,images_010\images\00022655_000.png,No Finding,0,22655,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014177_004.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014177_004.png,images_007\images\00014177_004.png,No Finding,4,14177,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005532_011.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005532_011.png,images_003\images\00005532_011.png,Effusion|Infiltration|Pleural_Thickening,11,5532,39,F,PA,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0
+00010479_016.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010479_016.png,images_005\images\00010479_016.png,No Finding,16,10479,29,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003241_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003241_000.png,images_002\images\00003241_000.png,Mass,0,3241,37,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00026078_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026078_001.png,images_011\images\00026078_001.png,Pneumothorax,1,26078,18,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00002140_002.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002140_002.png,images_002\images\00002140_002.png,No Finding,2,2140,73,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007864_012.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007864_012.png,images_004\images\00007864_012.png,No Finding,12,7864,49,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025527_009.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025527_009.png,images_011\images\00025527_009.png,Effusion|Mass|Pleural_Thickening,9,25527,70,F,PA,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0
+00011388_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011388_001.png,images_005\images\00011388_001.png,No Finding,1,11388,46,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019335_001.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019335_001.png,images_009\images\00019335_001.png,Nodule,1,19335,50,M,PA,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00029866_009.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029866_009.png,images_012\images\00029866_009.png,Infiltration,9,29866,57,F,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00018064_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018064_000.png,images_008\images\00018064_000.png,No Finding,0,18064,35,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020614_008.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020614_008.png,images_009\images\00020614_008.png,No Finding,8,20614,34,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022764_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022764_000.png,images_010\images\00022764_000.png,Effusion|Pneumonia,0,22764,70,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+00016550_005.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016550_005.png,images_008\images\00016550_005.png,Pneumothorax,5,16550,19,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00021002_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021002_000.png,images_010\images\00021002_000.png,No Finding,0,21002,55,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013834_014.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00013834_014.png,images_007\images\00013834_014.png,No Finding,14,13834,74,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007670_003.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007670_003.png,images_004\images\00007670_003.png,Pneumothorax,3,7670,45,F,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00001029_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001029_000.png,images_001\images\00001029_000.png,No Finding,0,1029,24,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003770_008.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003770_008.png,images_002\images\00003770_008.png,No Finding,8,3770,56,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002058_011.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002058_011.png,images_002\images\00002058_011.png,No Finding,11,2058,62,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011579_015.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011579_015.png,images_006\images\00011579_015.png,Atelectasis|Infiltration,15,11579,57,M,AP,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+00021275_007.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021275_007.png,images_010\images\00021275_007.png,No Finding,7,21275,19,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001956_005.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001956_005.png,images_002\images\00001956_005.png,No Finding,5,1956,31,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030373_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030373_000.png,images_012\images\00030373_000.png,No Finding,0,30373,68,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005461_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005461_000.png,images_003\images\00005461_000.png,Mass|Nodule,0,5461,56,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00013750_015.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013750_015.png,images_006\images\00013750_015.png,No Finding,15,13750,58,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013829_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00013829_000.png,images_007\images\00013829_000.png,No Finding,0,13829,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004893_040.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004893_040.png,images_003\images\00004893_040.png,No Finding,40,4893,31,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010680_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010680_001.png,images_005\images\00010680_001.png,Infiltration,1,10680,60,M,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00021706_003.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021706_003.png,images_010\images\00021706_003.png,Atelectasis,3,21706,69,F,PA,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017262_001.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017262_001.png,images_008\images\00017262_001.png,Mass,1,17262,52,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00019615_003.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019615_003.png,images_009\images\00019615_003.png,No Finding,3,19615,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009551_006.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009551_006.png,images_005\images\00009551_006.png,No Finding,6,9551,57,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015606_049.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015606_049.png,images_007\images\00015606_049.png,Emphysema,49,15606,18,F,AP,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00010531_063.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010531_063.png,images_005\images\00010531_063.png,No Finding,63,10531,25,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023845_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00023845_000.png,images_010\images\00023845_000.png,No Finding,0,23845,29,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004434_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004434_000.png,images_003\images\00004434_000.png,No Finding,0,4434,47,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011804_008.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011804_008.png,images_006\images\00011804_008.png,Mass,8,11804,56,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00027202_010.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027202_010.png,images_011\images\00027202_010.png,No Finding,10,27202,56,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006671_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006671_000.png,images_004\images\00006671_000.png,No Finding,0,6671,5,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011885_012.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011885_012.png,images_006\images\00011885_012.png,Effusion|Infiltration,12,11885,52,F,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00017563_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017563_000.png,images_008\images\00017563_000.png,No Finding,0,17563,47,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009969_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009969_001.png,images_005\images\00009969_001.png,Effusion|Mass,1,9969,26,F,PA,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+00000172_003.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000172_003.png,images_001\images\00000172_003.png,No Finding,3,172,83,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018130_001.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018130_001.png,images_008\images\00018130_001.png,No Finding,1,18130,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008862_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008862_000.png,images_004\images\00008862_000.png,No Finding,0,8862,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029432_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029432_000.png,images_012\images\00029432_000.png,No Finding,0,29432,36,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014839_015.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014839_015.png,images_007\images\00014839_015.png,Pneumothorax,15,14839,30,F,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00030502_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030502_000.png,images_012\images\00030502_000.png,No Finding,0,30502,35,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022454_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022454_000.png,images_010\images\00022454_000.png,No Finding,0,22454,53,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015480_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015480_000.png,images_007\images\00015480_000.png,No Finding,0,15480,28,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003527_008.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003527_008.png,images_002\images\00003527_008.png,No Finding,8,3527,52,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013572_015.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013572_015.png,images_006\images\00013572_015.png,No Finding,15,13572,62,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001946_009.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001946_009.png,images_002\images\00001946_009.png,No Finding,9,1946,18,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019848_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019848_000.png,images_009\images\00019848_000.png,No Finding,0,19848,72,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021552_025.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021552_025.png,images_010\images\00021552_025.png,No Finding,25,21552,50,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029713_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029713_000.png,images_012\images\00029713_000.png,No Finding,0,29713,67,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011370_004.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011370_004.png,images_005\images\00011370_004.png,No Finding,4,11370,43,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020751_004.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020751_004.png,images_009\images\00020751_004.png,Effusion,4,20751,33,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00021403_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021403_000.png,images_010\images\00021403_000.png,No Finding,0,21403,24,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013594_026.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013594_026.png,images_006\images\00013594_026.png,No Finding,26,13594,46,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018100_003.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018100_003.png,images_008\images\00018100_003.png,No Finding,3,18100,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000506_029.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000506_029.png,images_001\images\00000506_029.png,No Finding,29,506,28,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025691_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025691_001.png,images_011\images\00025691_001.png,No Finding,1,25691,75,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000522_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000522_001.png,images_001\images\00000522_001.png,No Finding,1,522,18,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021276_004.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021276_004.png,images_010\images\00021276_004.png,No Finding,4,21276,41,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014024_007.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014024_007.png,images_007\images\00014024_007.png,No Finding,7,14024,48,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014839_001.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014839_001.png,images_007\images\00014839_001.png,Mass,1,14839,30,F,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00001202_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001202_000.png,images_001\images\00001202_000.png,No Finding,0,1202,46,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002998_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002998_001.png,images_002\images\00002998_001.png,No Finding,1,2998,57,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003285_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003285_000.png,images_002\images\00003285_000.png,Mass|Nodule,0,3285,47,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00010504_002.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010504_002.png,images_005\images\00010504_002.png,No Finding,2,10504,46,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026036_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026036_000.png,images_011\images\00026036_000.png,Infiltration,0,26036,32,M,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00000533_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000533_000.png,images_001\images\00000533_000.png,No Finding,0,533,65,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008911_008.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008911_008.png,images_004\images\00008911_008.png,No Finding,8,8911,63,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029191_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029191_000.png,images_012\images\00029191_000.png,Mass,0,29191,38,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00016787_002.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016787_002.png,images_008\images\00016787_002.png,No Finding,2,16787,51,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021374_012.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021374_012.png,images_010\images\00021374_012.png,Pneumothorax,12,21374,80,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00025612_011.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025612_011.png,images_011\images\00025612_011.png,Emphysema|Pneumothorax,11,25612,34,M,PA,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+00007576_028.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007576_028.png,images_004\images\00007576_028.png,Effusion,28,7576,33,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00009872_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009872_000.png,images_005\images\00009872_000.png,No Finding,0,9872,62,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007762_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007762_000.png,images_004\images\00007762_000.png,Pneumothorax,0,7762,64,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00017235_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017235_000.png,images_008\images\00017235_000.png,Mass,0,17235,68,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00013662_021.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013662_021.png,images_006\images\00013662_021.png,No Finding,21,13662,21,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028548_003.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028548_003.png,images_012\images\00028548_003.png,No Finding,3,28548,30,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011606_017.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011606_017.png,images_006\images\00011606_017.png,No Finding,17,11606,34,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000652_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000652_000.png,images_001\images\00000652_000.png,No Finding,0,652,46,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029625_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029625_000.png,images_012\images\00029625_000.png,No Finding,0,29625,18,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024820_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00024820_000.png,images_011\images\00024820_000.png,No Finding,0,24820,23,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008911_017.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008911_017.png,images_004\images\00008911_017.png,Edema|Emphysema,17,8911,63,M,AP,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+00023076_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00023076_000.png,images_010\images\00023076_000.png,No Finding,0,23076,45,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011478_004.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011478_004.png,images_005\images\00011478_004.png,Mass,4,11478,58,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00012305_001.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012305_001.png,images_006\images\00012305_001.png,No Finding,1,12305,30,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029514_007.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029514_007.png,images_012\images\00029514_007.png,Effusion|Pleural_Thickening|Pneumothorax,7,29514,29,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1
+00013157_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013157_000.png,images_006\images\00013157_000.png,No Finding,0,13157,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025975_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025975_000.png,images_011\images\00025975_000.png,No Finding,0,25975,47,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011021_021.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011021_021.png,images_005\images\00011021_021.png,No Finding,21,11021,72,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016951_001.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016951_001.png,images_008\images\00016951_001.png,No Finding,1,16951,78,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030604_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030604_001.png,images_012\images\00030604_001.png,No Finding,1,30604,30,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007810_005.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007810_005.png,images_004\images\00007810_005.png,No Finding,5,7810,39,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004896_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004896_000.png,images_003\images\00004896_000.png,No Finding,0,4896,48,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011967_006.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011967_006.png,images_006\images\00011967_006.png,No Finding,6,11967,34,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000003_005.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000003_005.png,images_001\images\00000003_005.png,Hernia,5,3,78,F,PA,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00008078_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008078_000.png,images_004\images\00008078_000.png,No Finding,0,8078,49,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017227_012.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017227_012.png,images_008\images\00017227_012.png,Infiltration,12,17227,62,F,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00000952_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000952_000.png,images_001\images\00000952_000.png,No Finding,0,952,51,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006642_008.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006642_008.png,images_004\images\00006642_008.png,Effusion|Infiltration,8,6642,59,M,PA,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00003727_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003727_001.png,images_002\images\00003727_001.png,No Finding,1,3727,56,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018596_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018596_000.png,images_009\images\00018596_000.png,No Finding,0,18596,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010773_024.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010773_024.png,images_005\images\00010773_024.png,No Finding,24,10773,54,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004726_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004726_000.png,images_003\images\00004726_000.png,No Finding,0,4726,48,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009058_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00009058_001.png,images_004\images\00009058_001.png,No Finding,1,9058,56,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016796_010.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016796_010.png,images_008\images\00016796_010.png,Effusion,10,16796,64,F,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00024407_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00024407_000.png,images_010\images\00024407_000.png,No Finding,0,24407,36,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030067_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030067_000.png,images_012\images\00030067_000.png,No Finding,0,30067,54,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028572_010.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028572_010.png,images_012\images\00028572_010.png,No Finding,10,28572,54,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000197_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000197_000.png,images_001\images\00000197_000.png,No Finding,0,197,68,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011719_021.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011719_021.png,images_006\images\00011719_021.png,No Finding,21,11719,73,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027391_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027391_001.png,images_011\images\00027391_001.png,Mass,1,27391,43,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00015770_014.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015770_014.png,images_007\images\00015770_014.png,No Finding,14,15770,66,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026851_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026851_000.png,images_011\images\00026851_000.png,No Finding,0,26851,49,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029841_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029841_000.png,images_012\images\00029841_000.png,No Finding,0,29841,64,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027718_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027718_000.png,images_011\images\00027718_000.png,No Finding,0,27718,46,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026432_005.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026432_005.png,images_011\images\00026432_005.png,Mass|Pleural_Thickening,5,26432,71,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+00017551_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017551_000.png,images_008\images\00017551_000.png,No Finding,0,17551,50,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011896_024.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011896_024.png,images_006\images\00011896_024.png,No Finding,24,11896,44,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007705_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007705_001.png,images_004\images\00007705_001.png,No Finding,1,7705,43,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027216_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027216_001.png,images_011\images\00027216_001.png,No Finding,1,27216,65,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022829_003.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022829_003.png,images_010\images\00022829_003.png,No Finding,3,22829,39,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000197_003.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000197_003.png,images_001\images\00000197_003.png,No Finding,3,197,70,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029155_003.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029155_003.png,images_012\images\00029155_003.png,Mass,3,29155,48,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00008660_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008660_000.png,images_004\images\00008660_000.png,No Finding,0,8660,25,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000797_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000797_001.png,images_001\images\00000797_001.png,No Finding,1,797,46,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026698_002.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026698_002.png,images_011\images\00026698_002.png,No Finding,2,26698,43,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009453_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009453_001.png,images_005\images\00009453_001.png,Pneumothorax,1,9453,14,F,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00024360_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00024360_000.png,images_010\images\00024360_000.png,No Finding,0,24360,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017149_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017149_000.png,images_008\images\00017149_000.png,No Finding,0,17149,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014462_002.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014462_002.png,images_007\images\00014462_002.png,Mass,2,14462,66,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00004338_007.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004338_007.png,images_003\images\00004338_007.png,No Finding,7,4338,50,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019328_008.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019328_008.png,images_009\images\00019328_008.png,Mass|Nodule,8,19328,78,F,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00021477_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021477_000.png,images_010\images\00021477_000.png,No Finding,0,21477,67,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003663_002.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003663_002.png,images_002\images\00003663_002.png,No Finding,2,3663,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015895_005.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015895_005.png,images_007\images\00015895_005.png,Effusion|Infiltration,5,15895,32,M,PA,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00015156_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015156_000.png,images_007\images\00015156_000.png,No Finding,0,15156,65,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002839_002.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002839_002.png,images_002\images\00002839_002.png,No Finding,2,2839,6,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025529_016.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025529_016.png,images_011\images\00025529_016.png,Effusion,16,25529,35,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00019259_004.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019259_004.png,images_009\images\00019259_004.png,No Finding,4,19259,30,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029813_017.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029813_017.png,images_012\images\00029813_017.png,No Finding,17,29813,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011687_004.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011687_004.png,images_006\images\00011687_004.png,No Finding,4,11687,32,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015375_002.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015375_002.png,images_007\images\00015375_002.png,No Finding,2,15375,75,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001684_011.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001684_011.png,images_002\images\00001684_011.png,No Finding,11,1684,58,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027852_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027852_000.png,images_011\images\00027852_000.png,No Finding,0,27852,63,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006385_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00006385_000.png,images_003\images\00006385_000.png,No Finding,0,6385,37,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018317_005.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018317_005.png,images_008\images\00018317_005.png,Effusion,5,18317,54,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00010608_002.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010608_002.png,images_005\images\00010608_002.png,No Finding,2,10608,26,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004596_001.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004596_001.png,images_003\images\00004596_001.png,No Finding,1,4596,52,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030130_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030130_000.png,images_012\images\00030130_000.png,No Finding,0,30130,29,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029991_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029991_001.png,images_012\images\00029991_001.png,No Finding,1,29991,46,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013391_010.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013391_010.png,images_006\images\00013391_010.png,No Finding,10,13391,41,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010083_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010083_000.png,images_005\images\00010083_000.png,Mass,0,10083,64,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00018421_001.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018421_001.png,images_009\images\00018421_001.png,No Finding,1,18421,41,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018317_009.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018317_009.png,images_008\images\00018317_009.png,Effusion,9,18317,54,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00011921_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011921_000.png,images_006\images\00011921_000.png,No Finding,0,11921,44,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022055_003.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022055_003.png,images_010\images\00022055_003.png,Effusion,3,22055,59,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00015199_003.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015199_003.png,images_007\images\00015199_003.png,No Finding,3,15199,82,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002509_019.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002509_019.png,images_002\images\00002509_019.png,Pneumothorax,19,2509,44,F,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00000866_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000866_000.png,images_001\images\00000866_000.png,No Finding,0,866,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028358_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028358_001.png,images_012\images\00028358_001.png,Infiltration,1,28358,63,M,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00004008_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004008_000.png,images_003\images\00004008_000.png,No Finding,0,4008,65,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022651_015.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022651_015.png,images_010\images\00022651_015.png,Pneumothorax,15,22651,20,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00019576_054.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019576_054.png,images_009\images\00019576_054.png,No Finding,54,19576,49,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016508_042.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016508_042.png,images_008\images\00016508_042.png,No Finding,42,16508,51,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026538_011.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026538_011.png,images_011\images\00026538_011.png,Effusion|Infiltration,11,26538,21,F,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00010960_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010960_000.png,images_005\images\00010960_000.png,Effusion,0,10960,9,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00013992_024.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00013992_024.png,images_007\images\00013992_024.png,Mass,24,13992,60,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00019124_098.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019124_098.png,images_009\images\00019124_098.png,Mass|Pleural_Thickening|Pneumothorax,98,19124,51,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1
+00021224_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021224_000.png,images_010\images\00021224_000.png,No Finding,0,21224,69,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026491_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026491_000.png,images_011\images\00026491_000.png,No Finding,0,26491,46,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012834_055.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012834_055.png,images_006\images\00012834_055.png,No Finding,55,12834,33,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021769_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021769_000.png,images_010\images\00021769_000.png,Infiltration,0,21769,50,M,PA,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00021934_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021934_000.png,images_010\images\00021934_000.png,No Finding,0,21934,65,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012792_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012792_000.png,images_006\images\00012792_000.png,Mass,0,12792,39,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00008473_006.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008473_006.png,images_004\images\00008473_006.png,No Finding,6,8473,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000583_028.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000583_028.png,images_001\images\00000583_028.png,No Finding,28,583,40,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012480_005.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012480_005.png,images_006\images\00012480_005.png,No Finding,5,12480,53,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025478_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025478_000.png,images_011\images\00025478_000.png,No Finding,0,25478,47,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007131_004.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007131_004.png,images_004\images\00007131_004.png,No Finding,4,7131,57,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021420_019.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021420_019.png,images_010\images\00021420_019.png,Mass,19,21420,30,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00011963_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011963_000.png,images_006\images\00011963_000.png,No Finding,0,11963,64,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000340_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000340_000.png,images_001\images\00000340_000.png,No Finding,0,340,76,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023479_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00023479_000.png,images_010\images\00023479_000.png,No Finding,0,23479,44,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019735_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019735_000.png,images_009\images\00019735_000.png,No Finding,0,19735,18,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001689_004.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001689_004.png,images_002\images\00001689_004.png,No Finding,4,1689,42,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030497_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030497_001.png,images_012\images\00030497_001.png,Mass|Nodule,1,30497,26,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00019871_001.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019871_001.png,images_009\images\00019871_001.png,Mass,1,19871,76,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00013647_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013647_000.png,images_006\images\00013647_000.png,Nodule,0,13647,69,F,PA,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00000944_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000944_001.png,images_001\images\00000944_001.png,No Finding,1,944,67,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015872_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015872_000.png,images_007\images\00015872_000.png,No Finding,0,15872,24,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000991_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000991_000.png,images_001\images\00000991_000.png,No Finding,0,991,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007940_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007940_000.png,images_004\images\00007940_000.png,No Finding,0,7940,44,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011091_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011091_000.png,images_005\images\00011091_000.png,No Finding,0,11091,55,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014910_004.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014910_004.png,images_007\images\00014910_004.png,No Finding,4,14910,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001389_004.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001389_004.png,images_002\images\00001389_004.png,No Finding,4,1389,54,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005909_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005909_003.png,images_003\images\00005909_003.png,Mass,3,5909,44,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00026898_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026898_000.png,images_011\images\00026898_000.png,No Finding,0,26898,61,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021759_005.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021759_005.png,images_010\images\00021759_005.png,No Finding,5,21759,42,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004454_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004454_000.png,images_003\images\00004454_000.png,No Finding,0,4454,33,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026891_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026891_000.png,images_011\images\00026891_000.png,No Finding,0,26891,35,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001278_019.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001278_019.png,images_001\images\00001278_019.png,No Finding,19,1278,54,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000764_002.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000764_002.png,images_001\images\00000764_002.png,No Finding,2,764,49,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011630_006.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011630_006.png,images_006\images\00011630_006.png,Mass,6,11630,66,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00002644_007.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002644_007.png,images_002\images\00002644_007.png,No Finding,7,2644,49,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007676_012.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007676_012.png,images_004\images\00007676_012.png,Pneumothorax,12,7676,47,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00026274_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026274_001.png,images_011\images\00026274_001.png,No Finding,1,26274,21,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028978_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028978_000.png,images_012\images\00028978_000.png,No Finding,0,28978,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011454_004.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011454_004.png,images_005\images\00011454_004.png,Emphysema,4,11454,17,M,PA,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00010897_006.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010897_006.png,images_005\images\00010897_006.png,No Finding,6,10897,47,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025603_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025603_000.png,images_011\images\00025603_000.png,No Finding,0,25603,45,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000103_007.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000103_007.png,images_001\images\00000103_007.png,Mass|Pneumothorax,7,103,60,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+00005418_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005418_003.png,images_003\images\00005418_003.png,No Finding,3,5418,63,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021821_001.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021821_001.png,images_010\images\00021821_001.png,Effusion|Infiltration,1,21821,52,M,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00007093_012.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007093_012.png,images_004\images\00007093_012.png,No Finding,12,7093,72,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011877_010.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011877_010.png,images_006\images\00011877_010.png,No Finding,10,11877,54,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014083_019.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014083_019.png,images_007\images\00014083_019.png,Pneumothorax,19,14083,26,F,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00025303_021.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025303_021.png,images_011\images\00025303_021.png,No Finding,21,25303,67,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006710_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006710_001.png,images_004\images\00006710_001.png,No Finding,1,6710,19,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020150_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020150_000.png,images_009\images\00020150_000.png,No Finding,0,20150,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019639_005.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019639_005.png,images_009\images\00019639_005.png,No Finding,5,19639,50,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012816_004.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012816_004.png,images_006\images\00012816_004.png,No Finding,4,12816,63,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014052_003.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014052_003.png,images_007\images\00014052_003.png,No Finding,3,14052,71,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017199_011.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017199_011.png,images_008\images\00017199_011.png,No Finding,11,17199,45,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028880_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028880_001.png,images_012\images\00028880_001.png,No Finding,1,28880,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009369_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009369_000.png,images_005\images\00009369_000.png,No Finding,0,9369,55,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000444_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000444_001.png,images_001\images\00000444_001.png,No Finding,1,444,45,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018724_006.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018724_006.png,images_009\images\00018724_006.png,Effusion,6,18724,44,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00022820_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022820_000.png,images_010\images\00022820_000.png,No Finding,0,22820,36,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028523_021.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028523_021.png,images_012\images\00028523_021.png,No Finding,21,28523,59,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030225_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030225_000.png,images_012\images\00030225_000.png,No Finding,0,30225,36,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018237_014.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00018237_014.png,images_008\images\00018237_014.png,No Finding,14,18237,34,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027727_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027727_000.png,images_011\images\00027727_000.png,No Finding,0,27727,51,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006963_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006963_000.png,images_004\images\00006963_000.png,No Finding,0,6963,49,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001649_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001649_001.png,images_002\images\00001649_001.png,No Finding,1,1649,43,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025085_007.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025085_007.png,images_011\images\00025085_007.png,Pneumothorax,7,25085,24,M,AP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00005722_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005722_003.png,images_003\images\00005722_003.png,No Finding,3,5722,32,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023309_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00023309_000.png,images_010\images\00023309_000.png,No Finding,0,23309,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014121_002.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014121_002.png,images_007\images\00014121_002.png,No Finding,2,14121,59,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009190_001.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00009190_001.png,images_004\images\00009190_001.png,No Finding,1,9190,61,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025849_004.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025849_004.png,images_011\images\00025849_004.png,No Finding,4,25849,58,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007076_007.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007076_007.png,images_004\images\00007076_007.png,No Finding,7,7076,41,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001504_008.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001504_008.png,images_002\images\00001504_008.png,No Finding,8,1504,69,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023939_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00023939_000.png,images_010\images\00023939_000.png,No Finding,0,23939,43,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011928_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00011928_000.png,images_006\images\00011928_000.png,No Finding,0,11928,27,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018630_002.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018630_002.png,images_009\images\00018630_002.png,No Finding,2,18630,55,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015171_017.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015171_017.png,images_007\images\00015171_017.png,No Finding,17,15171,66,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013499_001.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013499_001.png,images_006\images\00013499_001.png,Mass|Nodule,1,13499,33,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00012010_035.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012010_035.png,images_006\images\00012010_035.png,No Finding,35,12010,54,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019899_007.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019899_007.png,images_009\images\00019899_007.png,No Finding,7,19899,64,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002451_006.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002451_006.png,images_002\images\00002451_006.png,No Finding,6,2451,49,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013187_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013187_000.png,images_006\images\00013187_000.png,No Finding,0,13187,61,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022072_004.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022072_004.png,images_010\images\00022072_004.png,No Finding,4,22072,28,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010547_002.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010547_002.png,images_005\images\00010547_002.png,No Finding,2,10547,61,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017046_007.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017046_007.png,images_008\images\00017046_007.png,Pneumothorax,7,17046,63,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00004858_085.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00004858_085.png,images_003\images\00004858_085.png,No Finding,85,4858,43,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009192_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00009192_000.png,images_004\images\00009192_000.png,No Finding,0,9192,29,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030659_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030659_001.png,images_012\images\00030659_001.png,No Finding,1,30659,70,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003494_003.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003494_003.png,images_002\images\00003494_003.png,No Finding,3,3494,25,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014149_030.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014149_030.png,images_007\images\00014149_030.png,Effusion|Infiltration,30,14149,59,F,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00021796_009.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021796_009.png,images_010\images\00021796_009.png,Effusion,9,21796,54,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00028304_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028304_001.png,images_012\images\00028304_001.png,No Finding,1,28304,60,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005403_000.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005403_000.png,images_003\images\00005403_000.png,No Finding,0,5403,34,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006762_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006762_000.png,images_004\images\00006762_000.png,No Finding,0,6762,49,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017872_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00017872_000.png,images_008\images\00017872_000.png,No Finding,0,17872,71,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020488_004.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020488_004.png,images_009\images\00020488_004.png,No Finding,4,20488,27,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010052_005.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010052_005.png,images_005\images\00010052_005.png,No Finding,5,10052,27,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000457_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000457_000.png,images_001\images\00000457_000.png,No Finding,0,457,33,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022260_008.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022260_008.png,images_010\images\00022260_008.png,No Finding,8,22260,54,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005202_004.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005202_004.png,images_003\images\00005202_004.png,Effusion,4,5202,58,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00019723_004.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019723_004.png,images_009\images\00019723_004.png,No Finding,4,19723,77,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009925_024.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009925_024.png,images_005\images\00009925_024.png,Effusion,24,9925,56,M,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00005019_001.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005019_001.png,images_003\images\00005019_001.png,No Finding,1,5019,70,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030031_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00030031_000.png,images_012\images\00030031_000.png,No Finding,0,30031,55,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021611_006.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021611_006.png,images_010\images\00021611_006.png,No Finding,6,21611,40,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003393_067.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003393_067.png,images_002\images\00003393_067.png,Effusion|Infiltration,67,3393,58,M,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00010433_008.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010433_008.png,images_005\images\00010433_008.png,No Finding,8,10433,21,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013807_017.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00013807_017.png,images_007\images\00013807_017.png,No Finding,17,13807,66,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027559_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027559_001.png,images_011\images\00027559_001.png,No Finding,1,27559,44,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009173_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00009173_000.png,images_004\images\00009173_000.png,No Finding,0,9173,54,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021825_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021825_000.png,images_010\images\00021825_000.png,No Finding,0,21825,47,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028357_021.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028357_021.png,images_012\images\00028357_021.png,Consolidation,21,28357,52,M,AP,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00028290_007.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028290_007.png,images_012\images\00028290_007.png,No Finding,7,28290,70,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022512_002.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022512_002.png,images_010\images\00022512_002.png,No Finding,2,22512,69,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022031_009.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022031_009.png,images_010\images\00022031_009.png,No Finding,9,22031,46,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014253_014.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014253_014.png,images_007\images\00014253_014.png,No Finding,14,14253,60,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000248_017.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000248_017.png,images_001\images\00000248_017.png,Mass,17,248,87,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00013572_018.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013572_018.png,images_006\images\00013572_018.png,No Finding,18,13572,61,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011325_003.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011325_003.png,images_005\images\00011325_003.png,No Finding,3,11325,74,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014172_005.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014172_005.png,images_007\images\00014172_005.png,No Finding,5,14172,53,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005520_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005520_003.png,images_003\images\00005520_003.png,No Finding,3,5520,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025244_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025244_000.png,images_011\images\00025244_000.png,No Finding,0,25244,46,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018610_016.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018610_016.png,images_009\images\00018610_016.png,Atelectasis|Effusion|Infiltration,16,18610,64,M,AP,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0
+00028421_004.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028421_004.png,images_012\images\00028421_004.png,Pneumothorax,4,28421,60,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00026621_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026621_000.png,images_011\images\00026621_000.png,No Finding,0,26621,13,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025813_002.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025813_002.png,images_011\images\00025813_002.png,No Finding,2,25813,61,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021201_002.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021201_002.png,images_010\images\00021201_002.png,No Finding,2,21201,65,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027864_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027864_001.png,images_011\images\00027864_001.png,No Finding,1,27864,57,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007569_016.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007569_016.png,images_004\images\00007569_016.png,No Finding,16,7569,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016627_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016627_000.png,images_008\images\00016627_000.png,Mass,0,16627,46,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00027725_020.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027725_020.png,images_011\images\00027725_020.png,No Finding,20,27725,21,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000182_000.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000182_000.png,images_001\images\00000182_000.png,No Finding,0,182,74,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020500_005.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00020500_005.png,images_009\images\00020500_005.png,No Finding,5,20500,39,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000631_004.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000631_004.png,images_001\images\00000631_004.png,Pneumothorax,4,631,25,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00007694_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007694_000.png,images_004\images\00007694_000.png,No Finding,0,7694,44,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011460_059.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011460_059.png,images_005\images\00011460_059.png,Pneumothorax,59,11460,16,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00010069_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00010069_001.png,images_005\images\00010069_001.png,Mass|Nodule,1,10069,78,F,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00028483_005.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028483_005.png,images_012\images\00028483_005.png,Effusion,5,28483,42,F,PA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00013176_001.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013176_001.png,images_006\images\00013176_001.png,No Finding,1,13176,54,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016521_007.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016521_007.png,images_008\images\00016521_007.png,Mass|Nodule,7,16521,73,M,PA,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00009407_001.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009407_001.png,images_005\images\00009407_001.png,No Finding,1,9407,70,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003659_007.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003659_007.png,images_002\images\00003659_007.png,No Finding,7,3659,50,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007735_047.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007735_047.png,images_004\images\00007735_047.png,No Finding,47,7735,32,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008004_005.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008004_005.png,images_004\images\00008004_005.png,Mass,5,8004,53,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00015393_002.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015393_002.png,images_007\images\00015393_002.png,No Finding,2,15393,54,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012724_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012724_000.png,images_006\images\00012724_000.png,No Finding,0,12724,27,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005804_003.png,images_003,C:\Users\srinu\Music\fedlearning\DataSET\images_003\images\00005804_003.png,images_003\images\00005804_003.png,No Finding,3,5804,46,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013744_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013744_000.png,images_006\images\00013744_000.png,No Finding,0,13744,52,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000652_011.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000652_011.png,images_001\images\00000652_011.png,No Finding,11,652,50,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022572_028.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022572_028.png,images_010\images\00022572_028.png,No Finding,28,22572,48,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029076_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029076_000.png,images_012\images\00029076_000.png,No Finding,0,29076,56,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028963_004.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00028963_004.png,images_012\images\00028963_004.png,Mass,4,28963,32,M,AP,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00019745_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00019745_000.png,images_009\images\00019745_000.png,No Finding,0,19745,51,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001682_001.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00001682_001.png,images_002\images\00001682_001.png,No Finding,1,1682,15,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018960_007.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018960_007.png,images_009\images\00018960_007.png,Pneumothorax,7,18960,26,M,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00000417_001.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00000417_001.png,images_001\images\00000417_001.png,No Finding,1,417,38,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012092_004.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012092_004.png,images_006\images\00012092_004.png,No Finding,4,12092,41,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016490_006.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016490_006.png,images_008\images\00016490_006.png,No Finding,6,16490,50,F,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007630_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007630_000.png,images_004\images\00007630_000.png,No Finding,0,7630,19,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021582_009.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021582_009.png,images_010\images\00021582_009.png,Pneumothorax,9,21582,72,F,PA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00025128_006.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025128_006.png,images_011\images\00025128_006.png,No Finding,6,25128,54,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001148_003.png,images_001,C:\Users\srinu\Music\fedlearning\DataSET\images_001\images\00001148_003.png,images_001\images\00001148_003.png,No Finding,3,1148,18,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029998_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029998_001.png,images_012\images\00029998_001.png,No Finding,1,29998,31,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012089_008.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012089_008.png,images_006\images\00012089_008.png,No Finding,8,12089,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022020_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022020_000.png,images_010\images\00022020_000.png,No Finding,0,22020,31,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015414_010.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00015414_010.png,images_007\images\00015414_010.png,No Finding,10,15414,40,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018845_003.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018845_003.png,images_009\images\00018845_003.png,Effusion|Infiltration,3,18845,77,M,AP,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+00014557_000.png,images_007,C:\Users\srinu\Music\fedlearning\DataSET\images_007\images\00014557_000.png,images_007\images\00014557_000.png,No Finding,0,14557,57,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009377_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00009377_000.png,images_005\images\00009377_000.png,No Finding,0,9377,40,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025181_001.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025181_001.png,images_011\images\00025181_001.png,No Finding,1,25181,54,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029676_000.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029676_000.png,images_012\images\00029676_000.png,No Finding,0,29676,37,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006851_026.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006851_026.png,images_004\images\00006851_026.png,No Finding,26,6851,45,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029075_015.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029075_015.png,images_012\images\00029075_015.png,Effusion|Pneumothorax,15,29075,23,F,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+00025858_005.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00025858_005.png,images_011\images\00025858_005.png,No Finding,5,25858,33,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008273_002.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008273_002.png,images_004\images\00008273_002.png,No Finding,2,8273,79,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021642_000.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00021642_000.png,images_010\images\00021642_000.png,No Finding,0,21642,26,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008395_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00008395_000.png,images_004\images\00008395_000.png,No Finding,0,8395,60,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027465_007.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027465_007.png,images_011\images\00027465_007.png,Effusion,7,27465,22,M,AP,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00003267_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003267_000.png,images_002\images\00003267_000.png,No Finding,0,3267,43,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006720_016.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006720_016.png,images_004\images\00006720_016.png,No Finding,16,6720,32,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018637_000.png,images_009,C:\Users\srinu\Music\fedlearning\DataSET\images_009\images\00018637_000.png,images_009\images\00018637_000.png,Mass,0,18637,76,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00012625_019.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00012625_019.png,images_006\images\00012625_019.png,No Finding,19,12625,24,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007080_002.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00007080_002.png,images_004\images\00007080_002.png,No Finding,2,7080,71,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003534_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003534_000.png,images_002\images\00003534_000.png,No Finding,0,3534,13,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006952_000.png,images_004,C:\Users\srinu\Music\fedlearning\DataSET\images_004\images\00006952_000.png,images_004\images\00006952_000.png,No Finding,0,6952,30,M,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013111_046.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013111_046.png,images_006\images\00013111_046.png,No Finding,46,13111,20,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002718_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00002718_000.png,images_002\images\00002718_000.png,No Finding,0,2718,80,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013183_000.png,images_006,C:\Users\srinu\Music\fedlearning\DataSET\images_006\images\00013183_000.png,images_006\images\00013183_000.png,Mass,0,13183,40,F,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00011034_000.png,images_005,C:\Users\srinu\Music\fedlearning\DataSET\images_005\images\00011034_000.png,images_005\images\00011034_000.png,No Finding,0,11034,61,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022726_010.png,images_010,C:\Users\srinu\Music\fedlearning\DataSET\images_010\images\00022726_010.png,images_010\images\00022726_010.png,No Finding,10,22726,45,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029827_001.png,images_012,C:\Users\srinu\Music\fedlearning\DataSET\images_012\images\00029827_001.png,images_012\images\00029827_001.png,No Finding,1,29827,7,M,AP,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003596_000.png,images_002,C:\Users\srinu\Music\fedlearning\DataSET\images_002\images\00003596_000.png,images_002\images\00003596_000.png,No Finding,0,3596,75,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027196_005.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027196_005.png,images_011\images\00027196_005.png,No Finding,5,27196,20,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026505_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00026505_000.png,images_011\images\00026505_000.png,Mass,0,26505,19,M,PA,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00027516_000.png,images_011,C:\Users\srinu\Music\fedlearning\DataSET\images_011\images\00027516_000.png,images_011\images\00027516_000.png,No Finding,0,27516,48,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016197_000.png,images_008,C:\Users\srinu\Music\fedlearning\DataSET\images_008\images\00016197_000.png,images_008\images\00016197_000.png,No Finding,0,16197,70,F,PA,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,29 @@
+{
+  "node_name": "Hospital A (Metropolitan General)",
+  "validation_stats": {
+    "total_records": 2545,
+    "checked_records": 200,
+    "corrupted_or_missing": 0,
+    "below_min_resolution": 0,
+    "internal_duplicates": 0,
+    "status": "HEALTHY"
+  },
+  "class_counts": {
+    "No_Finding": 249,
+    "Atelectasis": 86,
+    "Cardiomegaly": 20,
+    "Consolidation": 427,
+    "Edema": 49,
+    "Effusion": 867,
+    "Emphysema": 31,
+    "Fibrosis": 193,
+    "Hernia": 10,
+    "Infiltration": 827,
+    "Mass": 172,
+    "Nodule": 511,
+    "Pleural_Thickening": 122,
+    "Pneumonia": 55,
+    "Pneumothorax": 132
+  },
+  "class_imbalance_ratio": 0.28719723183391005
+}

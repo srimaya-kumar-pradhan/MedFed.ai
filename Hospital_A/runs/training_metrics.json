@@ -1,0 +1,89 @@
+{
+  "node_name": "Hospital_A",
+  "config": {
+    "node_dir": "C:/megafedallmodels/fedv2/Hospital_A",
+    "epochs": 2,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "alpha": 0.25,
+    "gamma": 2.0,
+    "mu": 0.0,
+    "device": "cpu",
+    "seed": 42,
+    "output_dir": null,
+    "num_workers": 0,
+    "max_train_batches": 10,
+    "max_val_batches": 5
+  },
+  "total_training_time_sec": 87.99219822883606,
+  "best_val_macro_f1": 0.06839597049143804,
+  "test_metrics": {
+    "loss": 0.09301469475030899,
+    "macro_f1": 0.0722065558335747,
+    "micro_f1": 0.15424164524421594,
+    "macro_precision": 0.08600969548559112,
+    "macro_recall": 0.22503840245775728,
+    "macro_roc_auc": 0.49017310672973685,
+    "per_class_f1": {
+      "Atelectasis": 0.0,
+      "Cardiomegaly": 0.02666666666666667,
+      "Consolidation": 0.0,
+      "Edema": 0.1111111111111111,
+      "Effusion": 0.06060606060606061,
+      "Emphysema": 0.0,
+      "Fibrosis": 0.05263157894736842,
+      "Hernia": 0.0,
+      "Infiltration": 0.4117647058823529,
+      "Mass": 0.09523809523809523,
+      "Nodule": 0.25287356321839083,
+      "Pleural_Thickening": 0.0,
+      "Pneumonia": 0.0,
+      "Pneumothorax": 0.0
+    },
+    "per_class_auc": {
+      "Atelectasis": 0.2784810126582279,
+      "Cardiomegaly": 0.26582278481012656,
+      "Consolidation": 0.5281285878300803,
+      "Edema": 0.5888157894736843,
+      "Effusion": 0.5069124423963134,
+      "Emphysema": 0.8734177215189873,
+      "Fibrosis": 0.3223684210526316,
+      "Hernia": 0.6708860759493671,
+      "Infiltration": 0.4397630019749835,
+      "Mass": 0.5405405405405406,
+      "Nodule": 0.7048748353096179,
+      "Pleural_Thickening": 0.3190789473684211,
+      "Pneumonia": 0.25,
+      "Pneumothorax": 0.5733333333333334
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.12007201462984085,
+      "train_base_loss": 0.12007201462984085,
+      "train_prox_loss": 0.0,
+      "val_loss": 0.09408555626869201,
+      "val_macro_f1": 0.06839597049143804,
+      "val_micro_f1": 0.15424164524421594,
+      "val_macro_roc_auc": 0.5027311377462176,
+      "val_macro_precision": 0.06228950822079212,
+      "val_macro_recall": 0.2145588329798856,
+      "epoch_time_sec": 46.36125636100769
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.06660648919641972,
+      "train_base_loss": 0.06660648919641972,
+      "train_prox_loss": 0.0,
+      "val_loss": 0.06364488676190376,
+      "val_macro_f1": 0.037475390673065094,
+      "val_micro_f1": 0.14678899082568808,
+      "val_macro_roc_auc": 0.49376335254020376,
+      "val_macro_precision": 0.09591836734693877,
+      "val_macro_recall": 0.07318376068376067,
+      "epoch_time_sec": 30.21156930923462
+    }
+  ]
+}

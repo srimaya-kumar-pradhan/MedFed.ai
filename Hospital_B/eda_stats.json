@@ -1,0 +1,29 @@
+{
+  "node_name": "Hospital B (Pulmonary Center)",
+  "validation_stats": {
+    "total_records": 7713,
+    "checked_records": 200,
+    "corrupted_or_missing": 0,
+    "below_min_resolution": 0,
+    "internal_duplicates": 0,
+    "status": "HEALTHY"
+  },
+  "class_counts": {
+    "No_Finding": 4022,
+    "Atelectasis": 1474,
+    "Cardiomegaly": 401,
+    "Consolidation": 246,
+    "Edema": 257,
+    "Effusion": 654,
+    "Emphysema": 299,
+    "Fibrosis": 41,
+    "Hernia": 9,
+    "Infiltration": 1685,
+    "Mass": 173,
+    "Nodule": 225,
+    "Pleural_Thickening": 293,
+    "Pneumonia": 151,
+    "Pneumothorax": 262
+  },
+  "class_imbalance_ratio": 2.3869436201780414
+}

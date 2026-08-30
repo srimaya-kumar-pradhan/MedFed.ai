@@ -1,0 +1,29 @@
+{
+  "node_name": "Hospital C (Thoracic & Oncology)",
+  "validation_stats": {
+    "total_records": 5342,
+    "checked_records": 200,
+    "corrupted_or_missing": 0,
+    "below_min_resolution": 0,
+    "internal_duplicates": 0,
+    "status": "HEALTHY"
+  },
+  "class_counts": {
+    "No_Finding": 4100,
+    "Atelectasis": 19,
+    "Cardiomegaly": 1,
+    "Consolidation": 35,
+    "Edema": 16,
+    "Effusion": 398,
+    "Emphysema": 34,
+    "Fibrosis": 15,
+    "Hernia": 19,
+    "Infiltration": 173,
+    "Mass": 449,
+    "Nodule": 108,
+    "Pleural_Thickening": 56,
+    "Pneumonia": 21,
+    "Pneumothorax": 339
+  },
+  "class_imbalance_ratio": 9.131403118040089
+}
