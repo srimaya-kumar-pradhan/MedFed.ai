@@ -110,7 +110,7 @@ python run_federation.py --strategy fedavg --privacy none --rounds 3
 # FedProx (proximal regularization)
 python run_federation.py --strategy fedprox --privacy none --rounds 3 --mu 0.01
 
-# Fed-FibAvg (Fibonacci-tier weighted aggregation)
+# Fed-FibAvg (Fibonacci-tier weighted aggregation )
 python run_federation.py --strategy fed-fibavg --privacy none --rounds 3
 
 # Fed-FibAvg with Prime-DP masking
