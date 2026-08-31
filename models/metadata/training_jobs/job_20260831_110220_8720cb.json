@@ -1,0 +1,67 @@
+{
+  "id": "job_20260831_110220_8720cb",
+  "status": "completed",
+  "created_at": "2026-08-31T11:02:20Z",
+  "started_at": null,
+  "ended_at": "2026-08-31T11:05:25Z",
+  "strategy": "fedavg",
+  "privacy": "none",
+  "rounds": 1,
+  "local_epochs": 1,
+  "batch_size": 4,
+  "lr": 0.0001,
+  "mu": 0.0,
+  "max_batches": 2,
+  "seed": 42,
+  "hospital_nodes": [
+    "Hospital_A",
+    "Hospital_B",
+    "Hospital_C"
+  ],
+  "requested_by": "researcher@institution1.com",
+  "current_round": 1,
+  "progress_pct": 100.0,
+  "per_round": [
+    {
+      "round": 1,
+      "global_macro_f1": 0.037339768064591675,
+      "global_roc_auc": 0.4760276163556655,
+      "round_duration_sec": 93.7041437625885,
+      "straggler_node": "Hospital_A",
+      "client_f1s": {
+        "Hospital_A": 0.08548925667828107,
+        "Hospital_B": 0.06661465779877078,
+        "Hospital_C": 0.09029765752454828
+      }
+    }
+  ],
+  "result": {
+    "summary_path": "C:\\megafedallmodels\\fedv2\\runs\\fedavg_none_job_20260831_110220_8720cb\\federation_summary.json",
+    "best_global_macro_f1": 0.037339768064591675,
+    "final_global_macro_f1": 0.037339768064591675,
+    "final_global_roc_auc": 0.4760276163556655,
+    "total_wall_clock_sec": 94.1937198638916
+  },
+  "error": null,
+  "log_tail": [
+    "2026-08-31 16:33:42,984 [INFO] === Starting MedFed AI Federated Orchestration ===",
+    "2026-08-31 16:33:42,984 [INFO] Strategy: FEDAVG | Privacy: NONE | Rounds: 1 | Seed: 42",
+    "2026-08-31 16:33:43,976 [INFO] Initialized Hospital_A | Local Train Samples: 2,036 | Val Samples: 254 | Device: cpu",
+    "2026-08-31 16:33:45,083 [INFO] Initialized Hospital_B | Local Train Samples: 6,170 | Val Samples: 771 | Device: cpu",
+    "2026-08-31 16:33:46,003 [INFO] Initialized Hospital_C | Local Train Samples: 4,273 | Val Samples: 534 | Device: cpu",
+    "2026-08-31 16:33:46,665 [INFO] ",
+    "==================== [FL Round 1/1] (FEDAVG) ====================",
+    "2026-08-31 16:33:46,795 [INFO] [Round 1] Starting local training (1 epoch(s))...",
+    "2026-08-31 16:34:14,099 [INFO] [Round 1] Completed in 10.99s | Train Loss: 0.1656 | Val F1: 0.0855 | Payload: 26.90 MB",
+    "2026-08-31 16:34:14,287 [INFO] [Round 1] Starting local training (1 epoch(s))...",
+    "2026-08-31 16:34:42,249 [INFO] [Round 1] Completed in 10.64s | Train Loss: 0.1651 | Val F1: 0.0666 | Payload: 26.90 MB",
+    "2026-08-31 16:34:42,422 [INFO] [Round 1] Starting local training (1 epoch(s))...",
+    "2026-08-31 16:35:10,210 [INFO] [Round 1] Completed in 10.16s | Train Loss: 0.1661 | Val F1: 0.0903 | Payload: 26.90 MB",
+    "2026-08-31 16:35:20,370 [INFO] --- [Round 1 Evaluation Results] ---",
+    "2026-08-31 16:35:20,372 [INFO] Global Macro F1: 0.0373 | Global ROC-AUC: 0.4760 | Global Loss: 0.1138",
+    "2026-08-31 16:35:20,372 [INFO] Straggler Node: Hospital_A (10.99s) | Cumulative Comms: 161.41 MB",
+    "2026-08-31 16:35:20,863 [INFO] ",
+    "=== Federated Run Complete! ===",
+    "2026-08-31 16:35:20,865 [INFO] Best Global Macro F1: 0.0373 | Total Time: 94.2s | Summary: C:\\megafedallmodels\\fedv2\\runs\\fedavg_none_job_20260831_110220_8720cb\\federation_summary.json"
+  ]
+}

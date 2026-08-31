@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-paper text-ink-900 font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+    margin: 0;
+  }
+  ::selection {
+    @apply bg-ink-900 text-paper;
+  }
+  *:focus-visible {
+    outline: 2px solid #0F4C5C;
+    outline-offset: 2px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium text-ink-900;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-paper border border-ink-200 rounded-md p-3;
+  }
+  .label {
+    @apply text-xs uppercase tracking-wide text-ink-500;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center px-3 py-2 text-sm font-medium border transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-ink-900 text-paper border-ink-900 hover:bg-ink-800;
+  }
+  .btn-secondary {
+    @apply btn bg-paper text-ink-900 border-ink-200 hover:border-ink-500;
+  }
+  .btn-accent {
+    @apply btn bg-accent text-paper border-accent hover:bg-accent-600;
+  }
+  .btn-danger {
+    @apply btn bg-paper text-status-bad border-status-bad hover:bg-status-bad hover:text-paper;
+  }
+  .input {
+    @apply w-full bg-paper border border-ink-200 px-2 py-2 text-sm rounded-sm focus:border-ink-900 focus:outline-none;
+  }
+  .table {
+    @apply w-full text-sm border-collapse;
+  }
+  .table th {
+    @apply text-left text-xs uppercase tracking-wide text-ink-500 font-normal py-2 px-2 border-b border-ink-200;
+  }
+  .table td {
+    @apply py-2 px-2 border-b border-ink-200 text-ink-900;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 text-xs border rounded-sm;
+  }
+  .badge-good    { @apply badge border-status-good text-status-good; }
+  .badge-warn    { @apply badge border-status-warn text-status-warn; }
+  .badge-bad     { @apply badge border-status-bad  text-status-bad;  }
+  .badge-neutral { @apply badge border-ink-300 text-ink-500; }
+
+  .dot { @apply inline-block w-2 h-2 rounded-full; }
+  .dot-good    { @apply bg-status-good; }
+  .dot-warn    { @apply bg-status-warn; }
+  .dot-bad     { @apply bg-status-bad;  }
+  .dot-neutral { @apply bg-ink-300; }
+}
+
+@layer utilities {
+  .anim-fade-in { animation: fadeIn 200ms ease-out; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(2px); }
+  to   { opacity: 1; transform: none; }
+}

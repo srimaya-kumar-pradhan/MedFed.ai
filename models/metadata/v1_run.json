@@ -1,0 +1,78 @@
+{
+  "strategy": "fedavg",
+  "privacy": "none",
+  "num_rounds": 3,
+  "total_wall_clock_sec": 595.612099647522,
+  "cumulative_comm_mb": 484.22623443603516,
+  "best_global_macro_f1": 0.024627518953481448,
+  "final_global_macro_f1": 0.0,
+  "final_global_roc_auc": 0.540666086003734,
+  "round_history": [
+    {
+      "round": 1,
+      "strategy": "fedavg",
+      "privacy": "none",
+      "global_loss": 0.06451025248244516,
+      "global_macro_f1": 0.024627518953481448,
+      "global_roc_auc": 0.5108494995736329,
+      "round_duration_sec": 189.97393417358398,
+      "cumulative_comm_mb": 161.40966796875,
+      "straggler_node": "Hospital_C",
+      "straggler_latency_sec": 38.85537028312683,
+      "client_f1s": {
+        "Hospital_A": 0.036485780752979154,
+        "Hospital_B": 0.05230450421766724,
+        "Hospital_C": 0.01629014499290291
+      },
+      "client_latencies": {
+        "Hospital_A": 36.2172966003418,
+        "Hospital_B": 37.59209156036377,
+        "Hospital_C": 38.85537028312683
+      }
+    },
+    {
+      "round": 2,
+      "strategy": "fedavg",
+      "privacy": "none",
+      "global_loss": 0.035283143371952944,
+      "global_macro_f1": 0.012698641728718141,
+      "global_roc_auc": 0.5471210872238428,
+      "round_duration_sec": 216.7523913383484,
+      "cumulative_comm_mb": 322.8179512023926,
+      "straggler_node": "Hospital_B",
+      "straggler_latency_sec": 61.77404808998108,
+      "client_f1s": {
+        "Hospital_A": 0.005291005291005291,
+        "Hospital_B": 0.026587301587301587,
+        "Hospital_C": 0.0
+      },
+      "client_latencies": {
+        "Hospital_A": 37.49007177352905,
+        "Hospital_B": 61.77404808998108,
+        "Hospital_C": 38.84609937667847
+      }
+    },
+    {
+      "round": 3,
+      "strategy": "fedavg",
+      "privacy": "none",
+      "global_loss": 0.023145643365863125,
+      "global_macro_f1": 0.0,
+      "global_roc_auc": 0.540666086003734,
+      "round_duration_sec": 188.66815495491028,
+      "cumulative_comm_mb": 484.22623443603516,
+      "straggler_node": "Hospital_A",
+      "straggler_latency_sec": 38.99330234527588,
+      "client_f1s": {
+        "Hospital_A": 0.0,
+        "Hospital_B": 0.0,
+        "Hospital_C": 0.0
+      },
+      "client_latencies": {
+        "Hospital_A": 38.99330234527588,
+        "Hospital_B": 38.0159330368042,
+        "Hospital_C": 38.74072194099426
+      }
+    }
+  ]
+}

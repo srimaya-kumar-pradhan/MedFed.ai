@@ -1,4 +1,5 @@
-﻿torch==2.13.0
+# Core ML
+torch==2.13.0
 torchvision==0.28.0
 flwr
 opacus
@@ -8,13 +9,19 @@ scikit-learn
 scipy
 Pillow
 matplotlib
-seaborn
+tqdm
+opencv-python-headless
+
+# Backend (FastAPI)
 fastapi==0.139.0
 uvicorn==0.49.0
 pydantic
 python-multipart
 PyJWT
 cryptography
-streamlit==1.58.0
-opencv-python-headless
-tqdm
+
+# Frontend
+# Node.js + Vite + React + TypeScript + Tailwind
+# Install with:
+#   cd frontend/medfed-ui
+#   npm install

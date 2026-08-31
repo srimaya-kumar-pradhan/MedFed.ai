@@ -1,201 +1,236 @@
 # MedFed AI
 
 > **Privacy-Preserving Federated Learning Platform for Medical Diagnostics**
-> Initial validation domain: NIH Chest X-ray (14-class multi-label). Architecture generalizes to Brain MRI without rework.
+> Prototype validation domain: NIH Chest X-ray (14-class multi-label). Architecture generalizes to Brain MRI without rework.
 
 ---
 
 ## Overview
 
-**MedFed AI** is a privacy-first federated learning platform that enables hospitals to collaboratively train medical imaging AI models **without ever sharing raw patient data**. Each hospital node trains locally on its own data; only model parameters cross the network. The platform is built for clinical use with mandatory explainability (Grad-CAM), strict data locality, and a doctor-facing portal that hides all federated learning internals.
+MedFed AI is a privacy-first federated learning platform that enables hospitals to collaboratively train medical imaging AI models **without ever sharing raw patient data**. Each hospital node trains locally on its own data; only model parameters cross the network. The platform is built for clinical use with mandatory explainability (Grad-CAM), strict data locality, and a doctor-facing React portal that hides all federated learning internals.
 
-### Key Innovations
-
-- **Fed-FibAvg**: Fibonacci-tier weighted federated aggregation that down-weights straggling nodes without discarding their unique non-IID data
-- **Prime-DP Masking**: Additive prime-seeded obfuscation layered atop Opacus's compute-verified differential privacy baseline
-- **Data Locality by Construction**: Raw images never leave hospital infrastructure — only model parameters cross the network
-- **Mandatory Explainability**: Every prediction ships with confidence score + Grad-CAM visual explanation
-- **Doctor-First UX**: Clinical Portal intentionally hides federated learning math from radiologists
+This is a prototype intended for technical evaluation and demonstration. It is not a clinically validated medical device. Clinical decision remains with the qualified healthcare professional.
 
 ---
 
-## Project Structure
+## Architecture
+
+```
+React (Vite + TypeScript + Tailwind)
+        │   REST + JWT
+        ▼
+FastAPI (backend/app.py)
+        │
+        ├── services/model_service.py    (loads model once, caches in memory)
+        ├── services/registry_service.py (versioning, deploy, registry JSON)
+        ├── services/prediction_service.py
+        ├── services/auth_service.py     (JWT, RBAC, demo user DB)
+        ├── jobs/training_jobs.py        (async subprocess job manager)
+        │
+        ▼
+Persistent model storage
+        models/global/current/model.pth
+        models/global/v1/model.pth
+        models/global/v2/model.pth
+        models/metadata/model_registry.json
+        models/metadata/training_jobs/<job_id>.json
+```
+
+**Critical startup contract**: backend boot loads the persisted model once into memory, sets it to eval mode, and starts the API. Training is **never** triggered by startup.
+
+**Training flow**: research user explicitly calls `POST /api/training/start` (gated by a `confirm: true` payload). A background subprocess runs `run_federation.py`; its `federation_summary.json` is harvested to a per-job status file. The new model is registered as a new version; deployment is human-approved via `POST /api/models/{version}/deploy`.
+
+---
+
+## Repository layout
 
 ```
 fedv2/
-├── Phase 1: Data Pipeline
-│   ├── sample_dataset.py        # 15,600 images sampled from 12 folders
-│   ├── partition_nodes.py       # Non-IID partition into Hospital_A/B/C
-│   └── preprocess.py            # Per-node validation + EDA reports
+├── backend/                    # FastAPI application
+│   ├── app.py                  # Entry point
+│   ├── core/                   # config, deps
+│   ├── api/                    # route modules
+│   │   ├── auth.py
+│   │   ├── health.py
+│   │   ├── predict.py
+│   │   ├── training.py
+│   │   ├── models_registry.py
+│   │   └── nodes.py
+│   ├── services/               # business logic
+│   │   ├── model_service.py
+│   │   ├── prediction_service.py
+│   │   ├── registry_service.py
+│   │   └── auth_service.py
+│   └── jobs/                   # async training job manager
+│       └── training_jobs.py
 │
-├── Phase 2: Local Training
-│   ├── model.py                 # DenseNet121 (multi-label)
-│   ├── losses.py                # Focal Loss + FedProx proximal term
-│   ├── train_local.py           # Single-node training loop
-│   └── gradcam.py               # Grad-CAM visual explanations
+├── frontend/
+│   └── medfed-ui/              # Vite + React + TypeScript
+│       ├── src/
+│       │   ├── api/client.ts          # REST client
+│       │   ├── auth/AuthContext.tsx
+│       │   ├── components/            # AppShell, Icon
+│       │   ├── pages/                 # Login, Dashboard, Analyze, etc.
+│       │   └── App.tsx
+│       └── tailwind.config.js
 │
-├── Phase 3: Federated Orchestration (Baseline FedAvg)
-│   ├── fl_client.py             # Flower NumPyClient (data locality)
-│   ├── fl_server.py             # Central FedAvg strategy
-│   ├── run_federation.py        # Multi-node FL simulation runner
-│   └── orchestrator_api.py      # FastAPI REST API
+├── models/                     # Persistent model storage
+│   ├── global/
+│   │   ├── current/model.pth
+│   │   ├── v1/model.pth
+│   │   └── v2/model.pth
+│   ├── metadata/
+│   │   ├── model_registry.json
+│   │   └── training_jobs/<job_id>.json
+│   └── checkpoints/
 │
-├── Phase 4: Innovation Injection
-│   ├── fed_fibavg.py            # Fibonacci-tier weighted aggregation
-│   └── prime_dp.py              # Prime-DP masking + Opacus baseline
+├── Hospital_A, Hospital_B, Hospital_C/   # Local federated node datasets
+├── runs/                                # Raw training summaries
 │
-├── Phase 5: Comparative Evaluation
-│   └── evaluate.py              # 4-arm comparison + dark-theme charts
+├── model.py, gradcam.py, losses.py, fl_client.py, fl_server.py,
+├── run_federation.py, evaluate.py, sample_dataset.py, partition_nodes.py,
+├── prime_dp.py, fed_fibavg.py, preprocess.py, train_local.py
 │
-├── Phase 6-7: Clinical Portal + Research/Admin Dashboards
-│   └── clinical_portal/
-│       ├── clinical_portal.py   # Streamlit doctor-facing app
-│       └── clinical_auth.py     # JWT + RBAC
-│
-├── Phase 8: Domain Transfer Readiness
-│   └── domain_transfer_readiness.md
-│
-├── Hospital_A/                  # Local partitioned dataset
-├── Hospital_B/
-├── Hospital_C/
-├── runs/                        # FL run artifacts (checkpoints, logs)
-└── evaluation_results/          # Comparison charts and tables
+└── requirements.txt
 ```
+
+The ML core (`model.py`, `gradcam.py`, `losses.py`, `run_federation.py`, etc.) is preserved unchanged from the previous build. The new backend `services/` thin-wraps these.
 
 ---
 
-## Quick Start
+## Quick start
 
-### Prerequisites
-- Python 3.11+
-- CUDA optional (CPU build tested and supported)
-- NIH Chest X-ray dataset (12 image folders + `Data_Entry_2017.csv`)
+### 1. Backend (FastAPI)
 
-### Installation
 ```bash
-git clone https://github.com/srimaya-kumar-pradhan/MedFed.ai.git
-cd MedFed.ai
-
-# CPU build
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
-
-# Or GPU build (CUDA 12.1)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-
-# Other dependencies
-pip install flwr opacus reportlab python-jose streamlit scikit-learn matplotlib seaborn
+cd fedv2
+python -m pip install -r requirements.txt
+python backend/app.py
+# uvicorn running on http://localhost:8000
 ```
 
-### Run the Pipeline
+The first call logs:
 
-**Phase 1 — Data Pipeline & Non-IID Partitioning**
-```bash
-python sample_dataset.py --seed 42
-python partition_nodes.py --num_nodes 3 --alpha 0.5 --seed 42
-python preprocess.py --node_dir ./Hospital_A --node_name "Hospital A"
-python preprocess.py --node_dir ./Hospital_B --node_name "Hospital B"
-python preprocess.py --node_dir ./Hospital_C --node_name "Hospital C"
+```
+MedFed AI backend starting
+Loading persistent current model (no training)...
+Model ready: global_v1 | device=cpu | loaded_for=0s
+API ready. Frontend can connect now.
 ```
 
-**Phase 2 — Local Training Baseline**
+### 2. Frontend (React)
+
 ```bash
-python train_local.py --node_dir ./Hospital_A --epochs 3 --mu 0.0 --seed 42
+cd fedv2/frontend/medfed-ui
+npm install
+npm run dev
+# Vite running on http://localhost:5173
 ```
 
-**Phase 3-4 — Federated Training**
-```bash
-# Baseline FedAvg
-python run_federation.py --strategy fedavg --privacy none --rounds 3
+### 3. Demo accounts
 
-# FedProx (proximal regularization)
-python run_federation.py --strategy fedprox --privacy none --rounds 3 --mu 0.01
-
-# Fed-FibAvg (Fibonacci-tier weighted aggregation)
-python run_federation.py --strategy fed-fibavg --privacy none --rounds 3
-
-# Fed-FibAvg with Prime-DP masking
-python run_federation.py --strategy fed-fibavg --privacy "opacus+prime" --rounds 3
-```
-
-**Phase 5 — Comparative Evaluation**
-```bash
-python evaluate.py --epochs 3 --max_batches 10 --seed 42
-```
-
-**Phase 6-7 — Clinical Portal (Streamlit)**
-```bash
-streamlit run clinical_portal/clinical_portal.py
-```
-
-Open `http://localhost:8501` in your browser.
-
-**Demo Credentials** (in `clinical_auth.py`):
 | Email | Password | Role |
 |-------|----------|------|
-| dr.sharma@hospitalA.com | demo123 | Clinician (Hospital A) |
-| dr.patel@hospitalA.com | admin123 | Admin (Hospital A) |
-| researcher@institution1.com | research123 | Researcher (Hospital B) |
-| dr.lee@hospitalC.com | demo123 | Clinician (Hospital C) |
+| `dr.sharma@hospitala.com` | `demo123` | Doctor (Hospital A) |
+| `dr.lee@hospitalc.com` | `demo123` | Doctor (Hospital C) |
+| `researcher@institution1.com` | `research123` | Researcher (Hospital B) |
+| `admin@hospitala.com` | `admin123` | Institution Admin |
+| `platform@medfed.ai` | `platform123` | Platform Admin |
+
+### 4. Run a federated training round
+
+Sign in as a researcher or admin → **Federated Training** → configure run → click **Start Training (confirm)** → review warning → **Start Training**.
+
+A new job appears under "Live status" with progress and per-round metrics. On completion, a new version is registered under **Model Registry**. An institution admin can click **Deploy** (with confirm) to switch the live inference model to the new version.
 
 ---
 
-## Global Constraints (Enforced)
+## API surface
 
-- **Data Locality**: Raw images (PNG/DICOM) never leave their assigned hospital node directory. Only model parameters cross the network.
-- **No Black-Box Output**: Every prediction shown to a clinical user ships with confidence + Grad-CAM explanation.
-- **Doctor Never Sees FL Internals**: Federated learning, Fed-FibAvg, DP, and aggregation math are backend infrastructure — never surfaced in the Clinical Portal UI.
-- **Study-Type Honesty**: All UI copy says "Chest X-ray" — never claims a different study type the current model doesn't support.
-- **Reproducibility**: Every script accepts `--seed` and logs it.
-- **Dark-Theme Defaults**: All visualizations use `#2c3e50` background family, `#7f8c8d` secondary, dropped top/right spines, percentage annotations on bars.
-
----
-
-## Phase 5 Results — Comparative Evaluation
-
-| Arm | Macro F1 | ROC-AUC | Time (s) | Notes |
-|-----|----------|---------|----------|-------|
-| **FedProx** | **0.0765** | 0.5419 | **130.7** | Best F1 + Fastest |
-| Centralized | 0.0569 | 0.4785 | 173.3 | Single-node baseline |
-| Fed-FibAvg | 0.0247 | 0.5080 | 642.6 | Fibonacci tier weighting |
-| FedAvg | 0.0246 | 0.5108 | 595.6 | Standard FedAvg baseline |
-
-> **Note**: These are proof-of-concept numbers on a small subset (max_batches=10-15 per round for responsive evaluation). For production-grade metrics, increase `--max_batches` to full epoch and `--rounds` to 20+.
-
----
-
-## Architecture Highlights
-
-### Fed-FibAvg Aggregation (Mathematical Formulation)
-
-1. **Composite Node Fitness Score**: $S_i = \frac{Q_i}{\tau_i + \epsilon}$ where $Q_i$ is data quality and $\tau_i$ is local latency
-2. **Client Tier Allocation**: Sort nodes by $S_i$ ascending, assign Fibonacci multipliers $\beta_i \in \{1, 2, 3, 5, 8\}$
-3. **Normalized Aggregation Weights**: $w_i = \frac{\beta_i \cdot n_i}{\sum_j \beta_j \cdot n_j}$
-4. **Global Update**: $\theta_{global}^{(r+1)} = \sum_i w_i \cdot \theta_i^{(r)}$
-
-See `fed_fibavg.py` docstring for the complete mathematical specification.
-
-### Prime-DP Masking
-
-- **Opacus DP base**: Gaussian mechanism with calibrated $(\epsilon, \delta)$ for formal privacy guarantees
-- **Prime-number obfuscation layer**: Additive deterministic masks seeded by safe primes
-- **Architectural note**: Prime masking is **additive obfuscation**, not a formal DP mechanism. Formal $(\epsilon, \delta)$ claims come from Opacus only.
+| Method | Path | Auth | Purpose |
+|--------|------|------|---------|
+| GET | `/api/health` | public | Liveness |
+| POST | `/api/auth/login` | public | Returns JWT |
+| GET | `/api/auth/me` | bearer | Current user |
+| GET | `/api/model/status` | bearer | Loaded model + registry |
+| GET | `/api/model/current` | bearer | Current model record |
+| POST | `/api/predict` | bearer | Run inference |
+| POST | `/api/explain` | bearer | Inference + Grad-CAM |
+| GET | `/api/training/runs` | researcher+ | List runs |
+| GET | `/api/training/runs/{id}` | researcher+ | Run details |
+| POST | `/api/training/start` | researcher+ | Start federated run |
+| POST | `/api/training/stop` | researcher+ | Stop run |
+| GET | `/api/models` | researcher+ | Registry |
+| GET | `/api/models/{version}` | researcher+ | Version details |
+| POST | `/api/models/{version}/deploy` | admin+ | Deploy version |
+| GET | `/api/nodes` | researcher+ | Hospital nodes |
+| GET | `/api/nodes/{node_id}` | researcher+ | Node details |
 
 ---
 
-## Domain Transfer to Brain MRI
+## How model persistence works
 
-The architecture is parameterized for a config-only swap to Brain MRI tumor classification. See [`domain_transfer_readiness.md`](domain_transfer_readiness.md) for the full compatibility note. Key change: replace `DEFAULT_CHEST_XRAY_CLASSES` constant and update the loss function from multi-label Focal Loss to multi-class CrossEntropy.
-
----
-
-## License
-
-This project is a research prototype. Not yet approved for clinical use. AI-generated assistance — final clinical interpretation remains with the qualified healthcare professional.
+1. A new model is produced by the federated training subprocess into `runs/<strategy>_<privacy>_<job_id>/global_model_round_*.pth` and `best_global_model.pth`.
+2. On completion, the registry discovers the new checkpoint and copies it into `models/global/<new_version>/model.pth` (e.g. `v2/model.pth`). All metrics are read directly from the checkpoint's stored metadata — no fabricated values.
+3. `current/model.pth` is updated only on explicit **Deploy** action.
+4. On backend boot, `model_service._ModelHolder` looks for `models/global/current/model.pth` → `models/global/v1/model.pth` and loads exactly one. If none exists, inference endpoints return 503 with the message *"Model unavailable. Please contact the system administrator."* — never silently trains a replacement.
 
 ---
 
-## Authors
+## How training is triggered
 
-**Team Chanakya** — MedFed AI Build
+Only via `POST /api/training/start` with `{confirm: true}`. The orchestrator:
 
-Generated with [Claude Code](https://claude.com/claude-code)
+1. Creates a job record under `models/metadata/training_jobs/<id>.json`.
+2. Spawns the training subprocess in the background (Python `subprocess.Popen`).
+3. A daemon thread polls the subprocess, harvests per-round metrics from the live `federation_summary.json`, and updates the job file.
+4. On success, the new checkpoint is registered as a new version. A user with `deploy_model` permission can then promote it to `current/`.
+
+If the user clicks "Start Training" without setting `confirm: true`, the API returns 400. The UI enforces a two-step confirmation gate.
+
+---
+
+## How inference works
+
+`POST /api/predict` and `POST /api/explain`:
+
+1. FastAPI receives the uploaded image, validates MIME type and minimum size.
+2. The already-loaded model runs sigmoid inference on the preprocessed tensor.
+3. Top-k predictions and the full 14-class distribution are returned.
+4. `/api/explain` additionally runs Grad-CAM and returns the overlay as base64 PNG.
+
+No GPU is required. No file persistence. No new training. The model has its `requires_grad` flag toggled correctly per request to keep the default path locked to inference.
+
+---
+
+## Design system
+
+- **Palette**: near-black ink (`#0A0A0A`–`#1A1A1A`), white paper (`#FFFFFF`/`#FAFAFA`), grays for borders and secondary text. A single clinical teal (`#0F4C5C`) is the only accent, used for primary actions.
+- **Typography**: Inter, single family, weight-driven hierarchy.
+- **No emojis** anywhere. Status communicated by small text badges (`Completed`, `Training`, `Failed`, etc.) with monochrome-friendly dots.
+- **Borders** are 1px solid; no glow or heavy shadows.
+- **Spacing** is on an 8px grid.
+- **WCAG AA** contrast throughout.
+
+---
+
+## Prototype limitations
+
+- Demo JWT is HMAC-signed with a hard-coded fallback secret. **Replace** `MEDFED_JWT_SECRET` for any real deployment.
+- Demo user database is in-memory; no password reset, no MFA, no SSO.
+- `run_federation.py` is invoked as a subprocess; job management is deliberately lightweight (no Celery/Redis/Kubernetes).
+- Model is a prototype DenseNet121 fine-tuned on a small subset of NIH Chest X-ray — not FDA-cleared, not CE-marked, not clinically validated.
+- Data partitions `Hospital_A/B/C` are local filesystem paths in this prototype; in production, each hospital would run its own `fl_client.py` on its own infrastructure.
+
+---
+
+## Brain MRI roadmap (future)
+
+The architecture is parameterized for a config-only swap:
+
+- Replace `DEFAULT_CHEST_XRAY_CLASSES` in `model.py`.
+- Update `losses.py` to use `CrossEntropyLoss` (Brain MRI is multi-class, not multi-label).
+- Extend `preprocess.py` to support DICOM via `pydicom`.
+- Add `"Brain MRI"` to the Study Type dropdown in `AnalyzePage.tsx`.
+
+See `domain_transfer_readiness.md` for the full compatibility note.

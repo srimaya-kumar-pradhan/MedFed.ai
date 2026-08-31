@@ -1,0 +1,22 @@
+{
+  "current_version": "global_v1",
+  "path": "C:\\megafedallmodels\\fedv2\\models\\global\\current\\model.pth",
+  "round": 1,
+  "status": "ready",
+  "metrics": {
+    "f1": 0.024627518953481448,
+    "roc_auc": 0.5108494995736329,
+    "loss": null
+  },
+  "metadata": {
+    "architecture": "densenet121",
+    "num_classes": 14,
+    "task": "multi_label_classification",
+    "study_type": "chest_xray",
+    "dataset": "NIH Chest X-ray (prototype, 14-class)",
+    "strategy": "fedavg",
+    "privacy": "none"
+  },
+  "created_at": "2026-08-31T04:08:33Z",
+  "updated_at": "2026-08-31T19:15:37Z"
+}
