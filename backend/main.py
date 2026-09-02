@@ -26,11 +26,12 @@ from fastapi.responses import FileResponse, JSONResponse
 
 from backend.core import config
 from backend.api import auth as auth_routes
+from backend.api import data_distribution as data_dist_routes
 from backend.api import health as health_routes
-from backend.api import predict as predict_routes
-from backend.api import training as training_routes
-from backend.api import models_registry as models_routes
 from backend.api import nodes as nodes_routes
+from backend.api import predict as predict_routes
+from backend.api import models_registry as models_routes
+from backend.api import training as training_routes
 from backend.services.model_service import model_holder
 
 
@@ -61,6 +62,7 @@ app.add_middleware(
 # ────────────────────────────────────────────────────────────────────────────
 app.include_router(health_routes.router)
 app.include_router(auth_routes.router)
+app.include_router(data_dist_routes.router)
 app.include_router(predict_routes.router)
 app.include_router(training_routes.router)
 app.include_router(models_routes.router)

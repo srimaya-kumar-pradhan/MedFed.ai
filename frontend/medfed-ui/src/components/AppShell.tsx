@@ -16,14 +16,15 @@ const CLINICAL_NAV: NavItem[] = [
 ];
 
 const RESEARCH_NAV: NavItem[] = [
-  { to: "/dashboard",  label: "Dashboard",          icon: "Server" },
-  { to: "/dataset",    label: "Local Dataset",      icon: "Layers" },
-  { to: "/training",   label: "Federated Training", icon: "Network" },
-  { to: "/runs",       label: "Training Runs",      icon: "Clock" },
-  { to: "/models",     label: "Model Versions",     icon: "Layers" },
-  { to: "/performance",label: "Performance",        icon: "Arrow" },
-  { to: "/nodes",      label: "Node Status",        icon: "Network" },
-  { to: "/security",   label: "Security",           icon: "Shield" },
+  { to: "/dashboard",      label: "Dashboard",          icon: "Server" },
+  { to: "/distribution",   label: "Data Distribution",  icon: "Layers" },
+  { to: "/dataset",        label: "Local Dataset",      icon: "Layers" },
+  { to: "/training",       label: "Federated Training", icon: "Network" },
+  { to: "/runs",           label: "Training Runs",      icon: "Clock" },
+  { to: "/models",         label: "Model Versions",     icon: "Layers" },
+  { to: "/performance",    label: "Performance",        icon: "Arrow" },
+  { to: "/nodes",          label: "Node Status",        icon: "Network" },
+  { to: "/security",       label: "Security",           icon: "Shield" },
 ];
 
 export function AppShell({ children }: { children: ReactNode }) {

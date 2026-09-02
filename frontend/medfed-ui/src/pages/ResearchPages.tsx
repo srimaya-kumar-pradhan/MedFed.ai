@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { nodes, models, training } from "../api/client";
 import type { NodeInfo, ModelsList, TrainingJob } from "../api/client";
 

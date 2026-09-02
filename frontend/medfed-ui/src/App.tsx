@@ -13,6 +13,7 @@ import {
   LocalDatasetPage, TrainingRunsPage, PerformancePage,
   NodeStatusPage, SecurityPage,
 } from "./pages/ResearchPages";
+import { DataDistributionPage } from "./components/DistributionChart";
 
 function Protected({ children }: { children: React.ReactElement }) {
   const { state } = useAuth();
@@ -46,6 +47,7 @@ function AppRoutes() {
                 <Route path="/runs" element={<TrainingRunsPage />} />
                 <Route path="/models" element={<ModelsRegistryPage />} />
                 <Route path="/dataset" element={<LocalDatasetPage />} />
+                <Route path="/distribution" element={<DataDistributionPage />} />
                 <Route path="/performance" element={<PerformancePage />} />
                 <Route path="/nodes" element={<NodeStatusPage />} />
                 <Route path="/security" element={<SecurityPage />} />
